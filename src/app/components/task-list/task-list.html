@@ -4,7 +4,8 @@
         <div class="row">
             <div class="col-12">
                 <h1>Tareas pendientes</h1>
-                @for(task of taskListPending; track task){
+                @for(task of taskListPending; track task; let index = $index){
+                <app-task [task]="task" [index]="index" />
 
                 } @empty {
                 <span class="d-block">!Felicidades¡ no tienes tareas pendientes</span>
@@ -37,6 +38,7 @@
             <div class="col-12">
                 <h1>Tareas completadas</h1>
                 @for(task of taskListPending; track task){
+                <app-task [task]="task" />
 
                 } @empty {
                 <span class="d-block">No tienes tareas completadas</span>
