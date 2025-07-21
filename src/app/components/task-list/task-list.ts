@@ -14,6 +14,7 @@ export class TaskList {
     public taskListCompleted: ITask[] = [];
     public showInputTask: boolean = false;
     public errorInputTask: boolean = false;
+    public showCompleted: boolean = false;
 
     showInputTextTask(){
       this.showInputTask = true;
@@ -39,6 +40,7 @@ export class TaskList {
     }
     removeTask(index:number){
       //console.log(index);
+      this.taskListPending.splice(index,1);
 
     }
 
@@ -49,6 +51,10 @@ export class TaskList {
       task.date = new Date();
       this.taskListPending.splice(index,1);
       this.taskListCompleted.push(task);
+    }
+
+    toggleShowComplete(){
+      this.showCompleted = !this.showCompleted;
     }
 
 }
