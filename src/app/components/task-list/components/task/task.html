@@ -1,12 +1,13 @@
-<div class="row g-0 border rounded mb-2">
+<div class="task row g-0 border rounded mb-2">
     <div class="col-2">
         <span> {{task.date|date:'dd/MM/yyyy'}}</span>
     </div>
-    <div class="col-8">
+    <div class="col-8 m-auto text-truncate" title="task.description">
         <span>{{task.description}}</span>
     </div>
     <div class="col-2">
-
+        <i class="task__icon bi bi-check text-success" (click)="completeTask()"></i>
+        <i class="task__icon bi bi-trash2-fill text-danger" (click)="removeTask()"></i>
     </div>
 
 </div>

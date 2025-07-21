@@ -36,7 +36,19 @@ export class TaskList {
         this.errorInputTask= true;
       }
 
-
+    }
+    removeTask(index:number){
+      //console.log(index);
 
     }
+
+    completeTask(index:number){
+      //console.log(index);
+            const task = this.taskListPending[index];
+      task.completed = true;
+      task.date = new Date();
+      this.taskListPending.splice(index,1);
+      this.taskListCompleted.push(task);
+    }
+
 }

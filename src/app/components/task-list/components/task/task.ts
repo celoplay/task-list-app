@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 import { ITask } from '../../../../models/task.model';
 import { DatePipe } from '@angular/common';
 
@@ -11,4 +11,16 @@ import { DatePipe } from '@angular/common';
 export class Task {
   @Input({ required: true }) task!: ITask;
   @Input() index: number = 0;
+  @Output() remove:EventEmitter<number> = new EventEmitter<number>();
+  @Output() complete:EventEmitter<number> = new EventEmitter<number>();
+
+  removeTask(){
+    this.remove.emit(this.index);
+  }
+
+  completeTask(){
+
+    this.complete.emit(this.index);
+
+  }
 }
