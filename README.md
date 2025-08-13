@@ -1,59 +1,57 @@
-# TaskListApp
+# ✅ Task List App (Angular • Aprendizaje)
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 20.0.6.
+[![Angular](https://img.shields.io/badge/Angular-Framework-red)]()
+[![TypeScript](https://img.shields.io/badge/TypeScript-Language-blue)]()
+[![Status](https://img.shields.io/badge/Status-Active-brightgreen)]()
 
-## Development server
+Aplicación para **gestionar tareas pendientes** desarrollada con **Angular + TypeScript**.  
+> Proyecto didáctico basado en material de curso, con adaptaciones personales para reforzar el aprendizaje.
 
-To start a local development server, run:
 
-```bash
+## 🚀 Funcionalidades
+- Mostrar lista de tareas
+- Añadir nuevas tareas
+- Marcar tareas como completadas
+- Eliminar tareas
+- Filtro por tareas completadas / pendientes
+
+
+## 🧰 Tecnologías
+- Angular
+- TypeScript
+- HTML / CSS
+- Node.js + npm
+- Git
+
+## 📦 Requisitos
+- Node 18+ (recomendado)
+- Angular CLI version 20.0.6.
+  
+▶️ Ejecución local
+
+git clone https://github.com/celoplay/task-list-app
+cd task-list-app
+npm install
 ng serve
-```
+# Abre http://localhost:4200
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+🧠 Qué aprendí
+Creación de componentes y comunicación con @Input / @Output
+Manejo de eventos y estado en Angular
+Uso de @For y @If en plantillas
+Estilado básico con CSS
+Separación de lógica de presentación y negocio
 
-## Code scaffolding
+✨ Cambios personales
+Estilos CSS personalizados
+Ajustes en nombres de variables
+Preparación para añadir almacenamiento en localStorage
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+📝 Nota de créditos
+📚 Proyecto desarrollado como parte de mi formación en "Aprende Angular desde 0 con 10 proyectos completos" por Disco Duro de Roer
+Curso disponible en: https://www.udemy.com/course/aprende-angular-desde-0-con-10-proyectos-completos/
 
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+👤 Autor
+Marcelo Aizaga M. — Valencia, España
+GitHub: https://github.com/celoplay
+LinkedIn: https://www.linkedin.com/in/marcelo-aizaga
