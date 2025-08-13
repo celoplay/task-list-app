@@ -27,31 +27,32 @@ Aplicación para **gestionar tareas pendientes** desarrollada con **Angular + Ty
 - Node 18+ (recomendado)
 - Angular CLI version 20.0.6.
   
-▶️ Ejecución local
+## ▶️ Ejecución local
 
-git clone https://github.com/celoplay/task-list-app
-cd task-list-app
-npm install
-ng serve
+git clone https://github.com/celoplay/task-list-app <br>
+cd task-list-app<br>
+npm install<br>
+ng serve<br>
 # Abre http://localhost:4200
 
-🧠 Qué aprendí
-Creación de componentes y comunicación con @Input / @Output
-Manejo de eventos y estado en Angular
-Uso de @For y @If en plantillas
-Estilado básico con CSS
-Separación de lógica de presentación y negocio
+## 🧠 Qué aprendí
+-Creación de componentes y comunicación con @Input / @Output<br>
+-Manejo de eventos y estado en Angular<br>
+-Uso de @For y @If en plantillas<br>
+-Estilado básico con CSS<br>
+-Separación de lógica de presentación y negocio<br>
 
-✨ Cambios personales
-Estilos CSS personalizados
-Ajustes en nombres de variables
-Preparación para añadir almacenamiento en localStorage
+## ✨ Cambios personales
+-Estilos CSS personalizados<br>
+-Ajustes en nombres de variables<br>
+-Preparación para añadir almacenamiento en localStorage<br>
 
-📝 Nota de créditos
-📚 Proyecto desarrollado como parte de mi formación en "Aprende Angular desde 0 con 10 proyectos completos" por Disco Duro de Roer
+## 📝 Nota de créditos
+📚 Proyecto desarrollado como parte de mi formación en "Aprende Angular desde 0 con 10 proyectos completos" por Disco Duro de Roer.<br>
 Curso disponible en: https://www.udemy.com/course/aprende-angular-desde-0-con-10-proyectos-completos/
 
-👤 Autor
-Marcelo Aizaga M. — Valencia, España
-GitHub: https://github.com/celoplay
+## 👤 Autor
+
+Marcelo Aizaga M. — Valencia, España <br>
+GitHub: https://github.com/celoplay <br>
 LinkedIn: https://www.linkedin.com/in/marcelo-aizaga
