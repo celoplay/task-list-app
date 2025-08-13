@@ -33,7 +33,7 @@ git clone https://github.com/celoplay/task-list-app <br>
 cd task-list-app<br>
 npm install<br>
 ng serve<br>
-# Abre http://localhost:4200
+Abre http://localhost:4200
 
 ## 🧠 Qué aprendí
 -Creación de componentes y comunicación con @Input / @Output<br>
